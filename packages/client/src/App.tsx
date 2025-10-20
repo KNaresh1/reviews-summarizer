@@ -1,11 +1,10 @@
 import './App.css';
-import { Button } from '@components';
+import { ReviewList } from '@components';
 
 function App() {
    return (
-      <div className="p-4 ">
-         <p className="font-bold text-3xl">Review Summarizer</p>
-         <Button>Click me!</Button>
+      <div>
+         <ReviewList productId={4} />
       </div>
    );
 }
